@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import Home from "@components/layout/Home";
-export default function Index() {
+
+export default function Home() {
   return (
     <div>
       <Head>
-        <title>ToDo</title>
+        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Home/>
+      <h1>todo/index.js</h1>
     </div>
   )
 }
